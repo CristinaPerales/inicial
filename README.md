@@ -2,5 +2,6 @@
 Jorge Navarrete
 Cristina Perales
 Marta Romero
-Angel Manuel Joaquin
+Angel Manuel Joaquin Yebenes
 Anastasiya Oxenyuk
+Laura Gomez
