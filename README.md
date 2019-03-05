@@ -1,5 +1,8 @@
 # inicial
-Jorge Navarrete
-CristinaPerales
-Dionizio Alexandre do Carmo Lima Camanho
-Laura Gomez
+Jorge Navarrete,
+CristinaPerales,
+Dionizio Alexandre do Carmo Lima Camanho,
+Laura Gomez,
+Angel Manuel Joaquin Yebenes,
+Marta Romero,
+
