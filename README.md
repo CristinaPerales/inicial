@@ -1,4 +1,4 @@
 # inicial
 Jorge Navarrete
-CristinaPerales
+Cristina Perales
 Marta Romero
