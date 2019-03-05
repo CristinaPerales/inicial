@@ -2,3 +2,4 @@
 Jorge Navarrete
 CristinaPerales
 Dionizio Alexandre do Carmo Lima Camanho
+Laura Gomez
