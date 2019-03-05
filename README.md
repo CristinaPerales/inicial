@@ -6,6 +6,4 @@ Laura Gomez,
 Marta Romero,
 Angel Manuel Joaquin,
 Anastasiya Oxenyuk.
-ey muy buenas a todos aqui vegetta777
-hgg
-fsdf
+
