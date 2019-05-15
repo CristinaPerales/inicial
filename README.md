@@ -1,7 +1,7 @@
 # inicial
 Jorge Navarrete,
 CristinaPerales,
-Dionizio Alexandre do Carmo Lima Camanho,
+Juan Manuel
 Laura Gomez,
 Marta Romero,
 Angel Manuel Joaquin,
