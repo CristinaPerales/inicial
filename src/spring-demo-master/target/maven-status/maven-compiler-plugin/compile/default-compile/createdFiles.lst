@@ -1,0 +1,17 @@
+com\example\demo\DemoApplication.class
+com\example\demo\model\Persona.class
+com\example\demo\model\UserRepository.class
+com\example\demo\model\LibroRepository.class
+com\example\demo\WebSecurityConfig.class
+com\example\demo\controller\LibroRestController.class
+com\example\demo\model\LibroService.class
+com\example\demo\model\PersonaRepository.class
+com\example\demo\model\UserRepositoryDetailsService.class
+com\example\demo\controller\LibroController.class
+com\example\demo\model\PersonaService.class
+com\example\demo\model\UserRepositoryDetailsService$1.class
+com\example\demo\controller\PersonaController.class
+com\example\demo\model\User.class
+com\example\demo\model\Libro.class
+com\example\demo\controller\LoginController.class
+com\example\demo\model\UserRepositoryDetailsService$CustomUserDetails.class
