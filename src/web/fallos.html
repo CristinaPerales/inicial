@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="estilos.css" />
+<link rel="stylesheet" type="text/css" href="estiloscuadro1.css" />
+<link rel="stylesheet" type="text/css" href="estiloscuadro2.css" />
+<link rel="stylesheet" type="text/css" href="estiloscuadro3.css" />
+<title>Rocket Motors</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One&display=swap');
+body {
+	background-image: url(img/stacked_circles.png);
+	background-repeat: repeat;
+}
+</style> 
+
+
+</head>
+<body>
+<table align="center" >
+<tr>
+<td>
+<table width="850" align = center border=0 bordercolor = #222222>
+	<tr>
+		<td width = 80 border = 0><a href="index.html"><img src="img/Rocket Motors.png" alt="" width="80" height="80" border="0"/></a></td>
+	  <td width="760" border = 0>
+	  <div class="container" align = center><a href="index.html"><img src="img/titulo.png"  width = 250 height = 100 align = center></a></div>		</td>
+	</tr>
+			<tr ></tr>
+		</table>
+
+
+<table width="800" align = center border=4 bordercolor = #222 bgcolor = #fff>
+  <tr >
+    <td >
+	<h3>Aqui podemos seleccionar las caracteristicas de nuestro coche:</h3> 
+	Marca :
+	<select name="Marca" size="1">
+      <option value="1" selected>Audi</option>
+      <option value="2">Mercedes</option>
+      <option value="3">Opel</option>
+    </select>
+	<br>
+	Modelo :
+	<select name="Modelo" size="1">
+      <option value="1" selected>A4</option>
+      <option value="2">Clase C 170</option>
+      <option value="3">Corsa</option>
+    </select>
+	<br>
+	Combustible : 
+	<select name="Combustible" size="1">
+      <option value="1" selected>Gasolina</option>
+      <option value="2">Diesel</option>
+      <option value="3">Electrico</option>
+    </select>
+	<br>
+	Motor:
+	<select name="transporte" size="1">
+      <option value="1" selected>1.6</option>
+      <option value="2">2.0</option>
+      <option value="3">2.2</option>
+    </select>
+	<br>
+	
+    </td>
+  </tr>
+ 
+</table>
+</body>
+</html>

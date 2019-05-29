@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<title>Pagina de registro</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	rel="stylesheet"></link>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<style type="text/css">
+	.boton_personalizado1 {  
+  text-decoration: none;
+    padding-left: 1px;
+	padding-right: 1px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+	.boton_personalizado2 {  
+  text-decoration: none;
+    padding-left: 2px;
+	padding-right: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+body,td,th {
+	font-family: MS Sans Serif;
+}
+</style>
+</head>
+<meta charset = "UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<body>
+	
+	<table width="900" border="0"  align="center">
+  
+    <tr>
+       <td align="center" valign="middle" bgcolor="#FFFFFF">
+         <p ><img src="img/Rocket Motors.png" alt="" width="300" height="297" align = center /></p>
+       </td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF">
+		
+      
+				<table align = center>
+					<tr align = center>
+					<td align=center>
+			
+				<label align = center>
+				 Nombre de usuario : <blockquote><input type="text" name="username" /></blockquote></label>
+				
+			<br>
+				<label align = center>
+				 Email : <blockquote><input type="text" name="email" /></blockquote></label>
+			
+			<br>
+	 			<label align = center> Contraseña: <blockquote> 
+			<input type="password" name="password" /></blockquote>
+				</label >
+			
+			<br>	
+				<label align = center> Repetir contraseña: <blockquote> 
+			<input type="password" name="password" /></blockquote>
+				</label >
+				
+				</td>
+				</tr>
+				</table>
+				
+		</td>
+    </tr>
+    <tr>
+      <td>
+		
+		  <table align = center>
+					<tr align = center>
+					<td width="1100" align=center >
+			<p align = center>	
+			<input name="sign in" type="submit" class="boton_personalizado2" id="sign in" value="Sign In"/>
+			<a href="index.html"><input name="volver" type="submit" class="boton_personalizado2" id="volver" value="Volver"/></a>
+			</p>
+		</td>
+    </tr>
+	
+ 
+</table>
+
+
+	
+</body>
+</html>
