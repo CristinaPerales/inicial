@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<title>Pagina de login</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	rel="stylesheet"></link>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<style type="text/css">
+	.boton_personalizado1 {  
+  text-decoration: none;
+    padding-left: 1px;
+	padding-right: 1px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+	.boton_personalizado2 {  
+  text-decoration: none;
+    padding-left: 2px;
+	padding-right: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+body,td,th {
+	font-family: MS Sans Serif;
+}
+body {
+	background-image: url(img/fondocochepagina.jpg);
+	background-repeat: no-repeat;
+	background-color: #FFFFff;
+	background-size: cover;
+}
+</style>
+</head>
+<meta charset = "UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width" />
+
+<body>
+	
+<div class="container">
+		<form th:action="@{/login}" method="post">
+			
+				<table width="650" border="0" height = 500 align="center">
+  <tbody>
+    <tr>
+       <td align="center" valign="middle" bgcolor="#FFFFFF"><div>
+         <p ><img src="img/Rocket_Motors.png" alt="" width="300" height="297" align = center /></p>
+       </td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF">
+		  </label>
+      
+				<table align = center>
+					<tr align = center><td align=center>
+			
+			<div > 
+				<label align = center>
+				<blockquote> Email : <blockquote><input type="text" name="username" />
+				
+
+	 <br>
+	 <label> Contraseña: <blockquote> 
+			<input type="password" name="password" />
+				</label >
+			</div>
+				</tr>
+				
+					
+				</table>
+				<tr>
+			
+
+			
+		</td>
+    </tr>
+    <tr>
+      <td>
+		
+		  <table align = center>
+					<tr align = center>
+					<td width="1100" align=center >
+			<p align = center>	
+			<input class="boton_personalizado2" type="submit" value="Sign In"/>
+			<a th:href="@{/index}" class="boton_personalizado2">Volver
+			</a>
+			
+						
+				
+		</td>
+    </tr>
+</table>
+
+			<div>
+				Usuario por defecto: test@test.com <br> 
+				Contraseña: test
+		  </div>	
+			
+</form>
+	</div>
+</body>
+</html>
